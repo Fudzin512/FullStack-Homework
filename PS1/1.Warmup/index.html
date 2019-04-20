@@ -26,7 +26,35 @@
     .floats {
       overflow: hidden;
     }
-    
+
+    .floats > .column {
+      float: left;
+      width: 33.33%;
+    }
+
+    .blocks {
+      font-size: 0;
+    }
+
+    .blocks > .column {
+      display: inline-block;
+      width: 33.33%;
+    }
+
+    .flexbox {
+      display: flex;
+    }
+
+    .flexbox > .column {
+      flex-grow: 1;
+    }
+
+    .grid {
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
   </style>
 </head>
 <body>
