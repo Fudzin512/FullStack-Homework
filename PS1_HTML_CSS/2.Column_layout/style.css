@@ -9,7 +9,8 @@ body {
     flex-direction: column;
     text-align: center;
     font-family: Verdana, Geneva, sans-serif;
-    font-size: 4vh;
+    font-size: calc(2vw + 2vh + 2vmin);
+
     font-weight: bold;
     color: #ffffff;
 }
