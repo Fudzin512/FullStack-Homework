@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  flex-wrap: wrap;
+}
+
+.header-logotip {
+  display: flex;
+  font-size: 60px;
+}
+
+.header-logotip-plus {
+  color: #1abc9c;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-basis: 30%;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 15px;
+}
+
+#products {
+  display: flex;
+  align-items: center;
+  background-color: #1abc9c;  
+  padding: 50px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.products-text {
+  color: #fff;
+  width: 40%;
+}
+
+.products-text p {
+  margin: 45px auto;
+  font-size: 15px;
+}
+
+.products-button {
+  height: 40px;
+  width: 120px;
+  background-color: #1abc9c;
+  color: #fff;
+  border: 2px solid white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#aboutUs {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 45px;
+}
+
+.aboutUs-content {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+  text-align: center;
+}
+
+.aboutUs-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 60%;
+  align-self: center;
+  background-color: #1abc9c;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 30px;
+}
+
+.aboutUs-content p{
+  margin-top: 10px;
+  margin-bottom: 60px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1abc9c;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  font-size: 15px;
+  margin-bottom: 15px;
+  padding: 5px;
+  outline: 0;
+}
+
+textarea {
+  height: 100px;
+  font-size: 15px;
+  padding: 5px;
+  outline: 0;
+}
+
+.footer-submit {
+  width: 80px;
+  align-self: center;
+  outline: 0;
+}
+
+.footer-button {
+  height: 40px;
+  width: 120px;
+  background-color: #1abc9c;
+  color: #fff;
+  border: 2px solid white;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
